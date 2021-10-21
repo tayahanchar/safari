@@ -74,11 +74,14 @@ ul {
     align-items: center;
 }
 
-.header__links {
+.menu__list {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-    font-family: "roboto", sans-serif;
+}
+
+.menu__link {
+  font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -101,12 +104,10 @@ ul {
     line-height: 26px;
 }
 
-
-
 .header__description {
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
-.navigation__btn {
+.header__btn {
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +140,7 @@ ul {
     margin-bottom: 25px;
 }
 
-.header__links::before {
+.menu__list::before {
     content: "";
     height: 1px;
     width: 100%;
@@ -149,7 +150,7 @@ ul {
     top: 103px;
 }
 
-.header__links::after {
+.menu__list::after {
     content: "";
     height: 1px;
     width: 100%;
@@ -159,8 +160,13 @@ ul {
     top: 182px;
 }
 
-.logo__link {
+.logo {
     display: flex;
     gap: 20px;
 }
 
+.arrow {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
