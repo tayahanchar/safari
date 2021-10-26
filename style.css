@@ -143,3 +143,25 @@ body {
   justify-content: center;
   padding: 15px;
 }
+
+.section__countries {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cintainer__countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  
+}
+
+.countries__item {
+  border: 1px solid #D9D9DE;
+}
+
+.countainer__title {
+  font-size: 16px;
+  padding: 10px 0 20px 20px;
+}
