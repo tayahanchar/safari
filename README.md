@@ -1,3 +1,3 @@
 # Safari
 
- https://tayahanchar.github.io/safari/
+ Site is ready to be published at https://tayahanchar.github.io/safari/
