@@ -163,5 +163,7 @@ body {
 
 .countainer__title {
   font-size: 16px;
-  padding: 10px 0 20px 20px;
+  padding: 7px 20px 15px 20px;
+  text-align: center;
+  line-height: 18px;
 }
