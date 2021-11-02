@@ -127,11 +127,16 @@ body {
 .header__title {
   font-family: "PT_Serif", serif;
   font-weight: 700;
-  font-size: 90px;
+  font-size: calc(60px + 30 * ((100vw - 320px) / (1140 - 320)));
   text-align: center;
   flex-grow: 2;
+  line-height: calc(50px + 50 * ((100vw - 320px) / (1140 - 320)));
 }
-
+.d {
+  font-size: 90px;
+  font-family: "PT_Serif", serif;
+  font-weight: 700;
+}
 .header__description {
   font-weight: 700;
   font-size: 20px;
@@ -161,9 +166,14 @@ body {
   border: 1px solid #D9D9DE;
 }
 
+
 .countainer__title {
   font-size: 16px;
   padding: 7px 20px 15px 20px;
   text-align: center;
   line-height: 18px;
+}
+
+.directions {
+  background-image: url(./pictures/back_desc.jpg);
 }
