@@ -176,4 +176,33 @@ body {
 
 .directions {
   background-image: url(./pictures/back_desc.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.directions__title {
+  padding-top: 43px;
+  padding-bottom: 57px;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.directions__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 70px;
+  gap: 60px 50px;
+}
+
+.directions__links {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.directions__text {
+  margin-top: 10px;
 }
