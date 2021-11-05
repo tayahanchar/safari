@@ -206,3 +206,16 @@ body {
 .directions__text {
   margin-top: 10px;
 }
+
+
+.popular__title {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.popular__container {
+  
+}
