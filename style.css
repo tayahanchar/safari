@@ -300,3 +300,42 @@ body {
   top: 43%;
   left: 45%;
 }
+
+.photogalery {
+  background-color: #886239;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+.photogalery__title {
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+.photogalery__menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  align-items: center
+}
+
+.photogalery__nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.photogalery__link {
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.photogalery__img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
