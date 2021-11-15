@@ -301,39 +301,39 @@ body {
   left: 45%;
 }
 
-.photogalery {
+.photogallery {
   background-color: #886239;
   padding-top: 60px;
   padding-bottom: 100px;
   margin-bottom: 80px;
 }
 
-.photogalery__title {
+.photogallery__title {
   color: #FFFFFF;
   font-size: 36px;
 }
 
-.photogalery__menu {
+.photogallery__menu {
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
   align-items: center
 }
 
-.photogalery__nav {
+.photogallery__nav {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.photogalery__link {
+.photogallery__link {
   color:#FFFFFF;
   text-decoration: none;
   font-size: 14px;
   padding-right: 20px;
 }
 
-.photogalery__img {
+.photogallery__img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
