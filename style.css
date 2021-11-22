@@ -266,16 +266,16 @@ body {
   padding-bottom: 100px;
 }
 
-.aboutSafari__title {
-  padding-bottom: 40px;
-  font-size: 36px;
-  font-weight: 700;
-}
-
 .aboutSafari__descr {
   display: flex;
   width: 100%;
   gap: 30px;
+}
+
+.aboutSafari__title {
+  padding-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .aboutSafari__p {
@@ -339,3 +339,45 @@ body {
   gap: 30px;
 }
 
+.premium {
+  margin-bottom: 95px;
+}
+
+.premium__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 75px;
+}
+
+.premium__content {
+  column-count: 2;
+  column-gap: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #D9D9DE;
+  padding-bottom: 65px;
+  margin-bottom: 45px;
+}
+
+.premium__paragraf {
+  margin-bottom: 20px;
+}
+
+.premium__list {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 250px 150px;
+  gap: 70px;
+}
+
+.premium__item {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.premium__item::first-line {
+  font-size: 58px;
+  color: #886239;
+  font-family: "PT_Serif";
+}
