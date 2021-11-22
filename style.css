@@ -429,3 +429,43 @@ body {
   text-decoration: underline;
   font-size: 16px;
 }
+
+.footer {
+  background-color: #1F1E1E;
+  padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+.container__footer {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.logo__footer {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.footer__contacts {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link {
+  color: #FFFFFF;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.footer__title {
+  font-weight: 700;
+}
