@@ -449,6 +449,10 @@ body {
   margin-bottom: 50px;
 }
 
+.footer__title {
+  font-weight: 700;
+}
+
 .footer__contacts {
   color: #FFFFFF;
   font-size: 14px;
@@ -469,6 +473,4 @@ body {
   color: #FFFFFF;
 }
 
-.footer__title {
-  font-weight: 700;
-}
+
