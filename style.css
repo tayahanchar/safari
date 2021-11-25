@@ -47,6 +47,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 5px;
 }
 
 .header {
@@ -473,4 +474,96 @@ body {
   color: #FFFFFF;
 }
 
+.menu__button {
+  display: none;
+}
 
+@media (max-width: 710px) {
+  .navigation__contacts {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation__contacts {
+    display: none;
+  }
+
+ .header__phone {
+   display: none;
+ }
+
+ .menu__button {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+.menu__button::after,
+.menu__button::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.menu__button::before {
+  top: 0;
+}
+
+.menu__button::after {
+  bottom: 0;
+}
+
+.menu__burger {
+  display: block;
+  height: 3px;
+  background-color: #FFFFFF;
+}
+
+.menu__list {
+  display: none;
+}
+
+.menu__list:last-child {
+  border-bottom: none;
+}
+
+.menu {
+  border: none;
+}
+
+}
+
+
+@media (max-width: 345px) {
+  .menu__button {
+    display: inline-block;
+    width: 37px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  
+  .menu__button::after,
+  .menu__button::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    left: 0;
+    background-color: #FFFFFF;
+  }
+}
