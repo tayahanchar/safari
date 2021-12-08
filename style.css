@@ -508,6 +508,9 @@ body {
     gap: 10px;
   }
 
+  .premium__list {
+    gap: 30px;
+  }
 
 }
 
@@ -536,6 +539,10 @@ body {
   gap: 20px;
   justify-items: center;
 }
+
+.premium__list {
+  grid-template-columns: repeat(3, 1fr);
+}
 }
 
 @media (max-width: 780px) {
@@ -555,6 +562,10 @@ body {
 
   .map__iframe {
     height: 500px;
+  }
+
+  .premium__list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -749,6 +760,10 @@ body {
   .premium__content {
     padding-bottom: 10px;
     margin-bottom: 15px;
+  }
+
+  .premium__list {
+    grid-template-columns: 1fr;
   }
   
 }
