@@ -591,6 +591,17 @@ body {
     padding-bottom: 60px;
     margin-bottom: 40px;
   }
+
+  .premium__title {
+    font-size: 30px;
+    margin-bottom: 55px;
+  }
+
+  .premium__content {
+    column-count: 1;
+    padding-bottom: 45px;
+    margin-bottom: 35px;
+  }
 }
 
 
@@ -730,6 +741,16 @@ body {
   grid-template-columns: 1fr;
   }
 
+  .premium__title {
+    font-size: 26px;
+    margin-bottom: 35px;
+  }
+
+  .premium__content {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
 }
 
 
@@ -763,5 +784,9 @@ body {
   .popular__title {
     padding-top: 40px;
     font-size: 24px;
+  }
+
+  .premium__title {
+    font-size: 22px;
   }
 }
