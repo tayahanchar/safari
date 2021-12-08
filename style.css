@@ -267,7 +267,8 @@ body {
 }
 
 .aboutSafari__descr {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   width: 100%;
   gap: 30px;
 }
@@ -293,6 +294,10 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.aboutSafari__picture {
+  width: 100%;
 }
 
 .aboutSafari__button {
@@ -489,6 +494,16 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+}
+
+@media (max-width: 1040px) {
+
+  .aboutSafari__descr {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
 }
 
 @media (max-width: 920px) {
@@ -510,7 +525,6 @@ body {
 .popular__container {
   gap: 10px;
 }
-
 }
 
 @media (max-width: 780px) {
@@ -651,6 +665,15 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: 26px;
+}
+
+.aboutSafari__title {
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+
+.aboutSafari {
+  padding-bottom: 40px;
 }
 
 .map {
