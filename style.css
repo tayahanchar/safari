@@ -545,6 +545,32 @@ body {
 }
 }
 
+@media (max-width: 860px) {
+
+  .container__order {
+    width: 100%;
+  }
+
+  .order__item {
+    width: 100%;
+  }
+
+  .order__title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .order {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .premium__content {
+    margin-bottom: 35px;
+  }
+
+}
+
 @media (max-width: 780px) {
 
   .popular__item:nth-child(3),
@@ -764,6 +790,20 @@ body {
 
   .premium__list {
     grid-template-columns: 1fr;
+  }
+
+  .order__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .order {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+
+  .premium__content {
+    margin-bottom: 15px;
   }
   
 }
